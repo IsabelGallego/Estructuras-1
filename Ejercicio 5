@@ -1,1 +1,54 @@
 
+paquete com.mycompany.mavenproject1;
+
+import java.util.Scanner;
+
+/ **
+
+ *
+
+ * @author Vale
+
+
+
+Tribonacci clase pública {
+
+    
+
+    public static void main (String [] args) {
+
+        Escáner entradaEscaner = nuevo Escáner (System.in);
+
+        System.out.println ("Ingrese el número de la secuencia que desea ver:");
+
+        String aux = entradaEscaner.nextLine ();
+
+        int n = Integer.parseInt (aux);
+
+        System.out.println ("El número de la secuencia es:" + secuencia (n));
+
+    }
+
+    static int secuencia (int num) {
+
+    si (num == 0 || num == 1 || num == 2) {
+
+        return 0;
+
+    }
+
+    más si (num == 3) {
+
+        return 1;
+
+    }demás
+
+    {
+
+        volver secuencia (num-1) + secuencia (num-2) + secuencia (num-3);
+
+    }
+
+    }
+
+}
