@@ -1,9 +1,6 @@
 package com.mycompany.mavenproject1;
 
-/**
- *
- * 
- */
+
 public class Palíndroma {
     
     public static void main(String[] args) {
