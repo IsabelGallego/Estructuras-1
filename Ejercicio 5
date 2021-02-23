@@ -3,14 +3,6 @@ paquete com.mycompany.mavenproject1;
 
 import java.util.Scanner;
 
-/ **
-
- *
-
- * @author Vale
-
-
-
 Tribonacci clase pública {
 
     
