@@ -2,10 +2,6 @@ package com.mycompany.mavenproject1;
 
 import java.util.Scanner;
 
-/**
- *
- * 
- */
 public class Existe {
     
     public static int [] llenarVector (int[]vector, int i){
