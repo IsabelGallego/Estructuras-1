@@ -2,10 +2,6 @@ package com.mycompany.mavenproject1;
 
 import java.util.Scanner;
 
-/**
- *
- *
- */
 public class Menor {
     public static int [] rellenar (int[]vector, int i){
         i = i-1;
